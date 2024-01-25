@@ -1,3 +1,3 @@
 # Pivoting
 
-https://gkiran.com.np/blog/pivoting
+Práctica CECIB IES Severo Ochoa. Laboratorio de pivoting.

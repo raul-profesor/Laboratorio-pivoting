@@ -1,6 +1,4 @@
-FROM phusion/baseimage:master
-
-LABEL maintainer="sauman"
+FROM phusion/baseimage:jammy-1.0.1
 
 LABEL name="attacker"
 

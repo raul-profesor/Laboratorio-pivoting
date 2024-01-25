@@ -1,4 +1,4 @@
-FROM phusion/baseimage:master
+FROM phusion/baseimage:jammy-1.0.1
 
 RUN apt update -y \
     && apt install -y python3-pip 
@@ -10,6 +10,8 @@ RUN apt install wget -y \
     && tar -xvf *
 
 WORKDIR /opt/sar2html-4.0.0/
+
+RUN echo Werkzeug==2.3.7 >> requirements.txt
 
 RUN pip3 install -r requirements.txt
 
