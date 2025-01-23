@@ -86,7 +86,7 @@ services:
         victim:
     command: >
       /bin/sh -c '
-      sleep 10;
+      sleep 30;
       wp core install --path="/var/www/html" --url="http://172.16.101.21" --title="Pivot Your Way" --admin_user=admin --admin_password=adminpass --admin_email=admin@admin.com --allow-root
       '
 
