@@ -13,6 +13,8 @@ WORKDIR /opt/sar2html-4.0.0/
 
 RUN echo Werkzeug==2.3.7 >> requirements.txt
 
+RUN echo toolz >> requirements.txt
+
 RUN pip3 install -r requirements.txt
 
 CMD bash -c "./startWeb"
